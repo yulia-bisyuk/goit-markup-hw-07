@@ -58,9 +58,7 @@
 }
 
 .button__subscribe {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  @include centeredFlex($justify-content: space-between);
   padding: 10px 28px;
 
   &:hover,

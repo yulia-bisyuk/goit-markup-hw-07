@@ -1,12 +1,9 @@
 // Common //
 
 .socials {
-  display: flex;
-  flex-wrap: wrap;
+  @include centeredFlex($justify-content: space-between, $wrap: wrap);
   width: 206px;
   height: 44px;
-  justify-content: space-between;
-  align-items: center;
 }
 
 //Our team socials//

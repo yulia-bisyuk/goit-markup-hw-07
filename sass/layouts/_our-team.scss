@@ -9,7 +9,7 @@
 .our-team__participant {
   margin-top: $card-items-gap;
   margin-left: $card-items-gap;
-  flex-basis: calc((100% - 120px) / 4);
+  flex-basis: calc((100% - #{$card-items-gap} * 4) / 4);
 
   background-color: $white-color;
   border-radius: $corner-radius;

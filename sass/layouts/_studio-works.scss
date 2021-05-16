@@ -5,7 +5,7 @@
 .studio-work__item {
   margin-top: $card-items-gap;
   margin-left: $card-items-gap;
-  flex-basis: calc((100% - 90px) / 3);
+  flex-basis: calc((100% - #{$card-items-gap} * 3) / 3);
 }
 
 .studio-work__link {

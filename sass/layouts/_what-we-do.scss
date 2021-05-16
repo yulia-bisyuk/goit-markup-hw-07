@@ -5,7 +5,7 @@
 .what-we-do__item {
   margin-top: $card-items-gap;
   margin-left: $card-items-gap;
-  flex-basis: calc((100% - 90px) / 3);
+  flex-basis: calc((100% - #{$card-items-gap} * 3) / 3);
 }
 
 .what-we-do__item-thumb {
@@ -13,9 +13,7 @@
 }
 
 .what-we-do__description {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include centeredFlex;
 
   position: absolute;
   left: 0;

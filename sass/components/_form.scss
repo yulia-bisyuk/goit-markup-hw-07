@@ -68,9 +68,8 @@
 }
 
 .form__agreement-label {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include centeredFlex;
+
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;

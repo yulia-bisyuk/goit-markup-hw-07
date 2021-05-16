@@ -12,18 +12,15 @@
 .advantages__list-item {
   margin-top: $card-items-gap;
   margin-left: $card-items-gap;
-  flex-basis: calc((100% - 120px) / 4);
+  flex-basis: calc((100% - #{$card-items-gap} * 4) / 4);
 }
 
 .advantages__icon-thumb {
+  @include centeredFlex;
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
   background-color: $bg-color-light-grey;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .advantages__text {
